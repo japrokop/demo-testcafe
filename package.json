@@ -1,0 +1,10 @@
+{
+  "name": "TestCafe",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "testcafe chrome,firefox,edge,ie tests/ --skip-js-errors"
+  },
+  "dependencies": {
+    "testcafe": "latest"
+  }
+}
